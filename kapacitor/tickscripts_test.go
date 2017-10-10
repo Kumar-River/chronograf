@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 	"github.com/sergi/go-diff/diffmatchpatch"
 )
 

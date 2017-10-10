@@ -7,9 +7,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/influx"
-	"github.com/influxdata/chronograf/influx/queries"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/influx"
+	"github.com/Kumar-River/chronograf/influx/queries"
 )
 
 type QueryRequest struct {

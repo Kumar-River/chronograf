@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/bouk/httprouter"
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/log"
-	"github.com/influxdata/chronograf/mocks"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/log"
+	"github.com/Kumar-River/chronograf/mocks"
 )
 
 func TestService_NewSourceRole(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/uuid"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/uuid"
 )
 
 // Client is a client for the boltDB data store.

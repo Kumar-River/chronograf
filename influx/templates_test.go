@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 func TestTemplateReplace(t *testing.T) {

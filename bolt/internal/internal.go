@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 //go:generate protoc --gogo_out=. internal.proto

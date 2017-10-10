@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/bouk/httprouter"
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 // NewRole adds role to source

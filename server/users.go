@@ -8,7 +8,7 @@ import (
 	"net/url"
 
 	"github.com/bouk/httprouter"
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 // NewSourceUser adds user to source

@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/influxdata/chronograf/log"
+	"github.com/Kumar-River/chronograf/log"
 )
 
 func TestAllRoutes(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	clog "github.com/influxdata/chronograf/log"
-	"github.com/influxdata/chronograf/oauth2"
-	"github.com/influxdata/chronograf/server"
+	clog "github.com/Kumar-River/chronograf/log"
+	"github.com/Kumar-River/chronograf/oauth2"
+	"github.com/Kumar-River/chronograf/server"
 )
 
 type MockAuthenticator struct {

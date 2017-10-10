@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 	"golang.org/x/oauth2"
 )
 

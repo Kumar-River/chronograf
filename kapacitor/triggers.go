@@ -1,6 +1,6 @@
 package kapacitor
 
-import "github.com/influxdata/chronograf"
+import "github.com/Kumar-River/chronograf"
 import "fmt"
 
 const (

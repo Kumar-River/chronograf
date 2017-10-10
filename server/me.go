@@ -6,8 +6,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/oauth2"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/oauth2"
 )
 
 type meLinks struct {

@@ -7,8 +7,8 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/influx"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/influx"
 )
 
 // ValidInfluxRequest checks if queries specify a command.

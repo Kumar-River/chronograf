@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 func TestService_GetDatabases(t *testing.T) {

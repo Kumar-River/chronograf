@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/bouk/httprouter"
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/uuid"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/uuid"
 )
 
 // ValidTemplateRequest checks if the request sent to the server is the correct format.

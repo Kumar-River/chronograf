@@ -3,7 +3,7 @@ package server
 import (
 	"net/http"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 // AuthRoute are the routes for each type of OAuth2 provider

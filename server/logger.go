@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 type logResponseWriter struct {

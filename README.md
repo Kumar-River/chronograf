@@ -3,7 +3,7 @@
 Chronograf is an open-source web application written in Go and React.js that provides the tools to visualize your monitoring data and easily create alerting and automation rules.
 
 <p align="left">
-  <img src="https://github.com/influxdata/chronograf/blob/master/docs/images/overview-readme.png"/>
+  <img src="https://github.com/Kumar-River/chronograf/blob/master/docs/images/overview-readme.png"/>
 </p>
 
 ## Features
@@ -16,7 +16,7 @@ Chronograf is an open-source web application written in Go and React.js that pro
 
 ### Dashboard Templates
 
-Chronograf's [pre-canned dashboards](https://github.com/influxdata/chronograf/tree/master/canned) for the supported [Telegraf](https://github.com/influxdata/telegraf) input plugins.
+Chronograf's [pre-canned dashboards](https://github.com/Kumar-River/chronograf/tree/master/canned) for the supported [Telegraf](https://github.com/influxdata/telegraf) input plugins.
 Currently, Chronograf offers dashboard templates for the following Telegraf input plugins:
 
 * [Apache](https://github.com/influxdata/telegraf/blob/master/plugins/inputs/apache)
@@ -100,10 +100,10 @@ Manage users, roles, permissions for [OSS InfluxDB](https://github.com/influxdat
 View actively running queries and stop expensive queries on the Query Management page.
 
 ### TLS/HTTPS Support
-See [Chronograf with TLS](https://github.com/influxdata/chronograf/blob/master/docs/tls.md) for more information.
+See [Chronograf with TLS](https://github.com/Kumar-River/chronograf/blob/master/docs/tls.md) for more information.
 
 ### OAuth Login
-See [Chronograf with OAuth 2.0](https://github.com/influxdata/chronograf/blob/master/docs/auth.md) for more information.
+See [Chronograf with OAuth 2.0](https://github.com/Kumar-River/chronograf/blob/master/docs/auth.md) for more information.
 
 ### Advanced Routing
 Change the default root path of the Chronograf server with the `--basepath` option.
@@ -113,13 +113,13 @@ Change the default root path of the Chronograf server with the `--basepath` opti
 The most recent version of Chronograf is [v1.3.8.0](https://www.influxdata.com/downloads/).
 
 Spotted a bug or have a feature request?
-Please open [an issue](https://github.com/influxdata/chronograf/issues/new)!
+Please open [an issue](https://github.com/Kumar-River/chronograf/issues/new)!
 
 ### Known Issues
 
 The Chronograf team has identified and is working on the following issues:
 
-* Chronograf requires users to run Telegraf's [CPU](https://github.com/influxdata/telegraf/blob/master/plugins/inputs/system/CPU_README.md) and [system](https://github.com/influxdata/telegraf/blob/master/plugins/inputs/system/SYSTEM_README.md) plugins to ensure that all Apps appear on the [HOST LIST](https://github.com/influxdata/chronograf/blob/master/docs/GETTING_STARTED.md#host-list) page.
+* Chronograf requires users to run Telegraf's [CPU](https://github.com/influxdata/telegraf/blob/master/plugins/inputs/system/CPU_README.md) and [system](https://github.com/influxdata/telegraf/blob/master/plugins/inputs/system/SYSTEM_README.md) plugins to ensure that all Apps appear on the [HOST LIST](https://github.com/Kumar-River/chronograf/blob/master/docs/GETTING_STARTED.md#host-list) page.
 
 ## Installation
 
@@ -150,10 +150,10 @@ docker pull chronograf:1.3.8.0
 1. [Install Node and NPM](https://nodejs.org/en/download/)
 1. [Install yarn](https://yarnpkg.com/docs/install)
 1. [Setup your GOPATH](https://golang.org/doc/code.html#GOPATH)
-1. Run `go get github.com/influxdata/chronograf`
-1. Run `cd $GOPATH/src/github.com/influxdata/chronograf`
+1. Run `go get github.com/Kumar-River/chronograf`
+1. Run `cd $GOPATH/src/github.com/Kumar-River/chronograf`
 1. Run `make`
-1. To install run `go install github.com/influxdata/chronograf/cmd/chronograf`
+1. To install run `go install github.com/Kumar-River/chronograf/cmd/chronograf`
 
 ## Documentation
 

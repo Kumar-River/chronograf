@@ -10,8 +10,8 @@ import (
 
 	"github.com/NYTimes/gziphandler"
 	"github.com/bouk/httprouter"
-	"github.com/influxdata/chronograf" // When julienschmidt/httprouter v2 w/ context is out, switch
-	"github.com/influxdata/chronograf/oauth2"
+	"github.com/Kumar-River/chronograf" // When julienschmidt/httprouter v2 w/ context is out, switch
+	"github.com/Kumar-River/chronograf/oauth2"
 )
 
 const (

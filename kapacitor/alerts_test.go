@@ -3,7 +3,7 @@ package kapacitor
 import (
 	"testing"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 func TestAlertServices(t *testing.T) {

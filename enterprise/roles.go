@@ -3,7 +3,7 @@ package enterprise
 import (
 	"context"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 // RolesStore uses a control client operate on Influx Enterprise roles.  Roles are

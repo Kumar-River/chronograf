@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	"github.com/bouk/httprouter"
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/log"
-	"github.com/influxdata/chronograf/mocks"
-	"github.com/influxdata/chronograf/server"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/log"
+	"github.com/Kumar-River/chronograf/mocks"
+	"github.com/Kumar-River/chronograf/server"
 )
 
 func TestService_NewSourceUser(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	"github.com/google/go-github/github"
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 	"golang.org/x/oauth2"
 	ogh "golang.org/x/oauth2/github"
 )

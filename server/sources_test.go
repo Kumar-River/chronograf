@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/mocks"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/mocks"
 )
 
 func Test_newSourceResponse(t *testing.T) {

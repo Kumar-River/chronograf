@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 const (

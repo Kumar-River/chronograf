@@ -8,10 +8,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/log"
-	"github.com/influxdata/chronograf/mocks"
-	"github.com/influxdata/chronograf/oauth2"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/log"
+	"github.com/Kumar-River/chronograf/mocks"
+	"github.com/Kumar-River/chronograf/oauth2"
 )
 
 type MockUsers struct{}

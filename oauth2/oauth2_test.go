@@ -9,7 +9,7 @@ import (
 
 	goauth "golang.org/x/oauth2"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 var _ Provider = &MockProvider{}

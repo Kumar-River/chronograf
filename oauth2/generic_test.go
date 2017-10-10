@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	clog "github.com/influxdata/chronograf/log"
-	"github.com/influxdata/chronograf/oauth2"
+	clog "github.com/Kumar-River/chronograf/log"
+	"github.com/Kumar-River/chronograf/oauth2"
 )
 
 func TestGenericPrincipalID(t *testing.T) {

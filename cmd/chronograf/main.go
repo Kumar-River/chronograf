@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/influxdata/chronograf/server"
+	"github.com/Kumar-River/chronograf/server"
 	flags "github.com/jessevdk/go-flags"
 )
 

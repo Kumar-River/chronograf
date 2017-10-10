@@ -4,7 +4,7 @@
 // This is how the pieces of this package fit together:
 //
 //  ┌────────────────────────────────────────┐
-//  │github.com/influxdata/chronograf/oauth2 │
+//  │github.com/Kumar-River/chronograf/oauth2 │
 //  ├────────────────────────────────────────┴────────────────────────────────────┐
 //  │┌────────────────────┐                                                       │
 //  ││   <<interface>>    │        ┌─────────────────────────┐                    │

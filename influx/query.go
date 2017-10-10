@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 	"github.com/influxdata/influxdb/influxql"
 )
 

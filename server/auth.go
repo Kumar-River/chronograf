@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/oauth2"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/oauth2"
 )
 
 // AuthorizedToken extracts the token and validates; if valid the next handler

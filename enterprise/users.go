@@ -3,7 +3,7 @@ package enterprise
 import (
 	"context"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 // UserStore uses a control client operate on Influx Enterprise users

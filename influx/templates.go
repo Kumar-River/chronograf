@@ -3,7 +3,7 @@ package influx
 import (
 	"strings"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 // TemplateReplace replaces templates with values within the query string

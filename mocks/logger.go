@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 )
 
 type LogMessage struct {

@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/influxdata/chronograf/bolt"
+	"github.com/Kumar-River/chronograf/bolt"
 )
 
 // TestNow is a set time for testing.

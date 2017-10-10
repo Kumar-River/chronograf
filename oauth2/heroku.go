@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/influxdata/chronograf"
+	"github.com/Kumar-River/chronograf"
 
 	"golang.org/x/oauth2"
 	hrk "golang.org/x/oauth2/heroku"

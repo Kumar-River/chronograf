@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/boltdb/bolt"
-	"github.com/influxdata/chronograf"
-	"github.com/influxdata/chronograf/bolt/internal"
+	"github.com/Kumar-River/chronograf"
+	"github.com/Kumar-River/chronograf/bolt/internal"
 )
 
 // Ensure SourcesStore implements chronograf.SourcesStore.
