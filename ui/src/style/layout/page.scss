@@ -1,0 +1,42 @@
+/*
+    Page Layout
+    ----------------------------------------------
+*/
+.chronograf-root {
+  display: flex;
+  align-items: stretch;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: $g17-whisper;
+}
+.page {
+  flex-grow: 1;
+}
+.page-contents {
+  position: absolute !important;
+  top: $chronograf-page-header-height;
+  left: 0;
+  width: 100%;
+  height: calc(100% - #{$chronograf-page-header-height}) !important;
+  @include gradient-v($g2-kevlar,$g0-obsidian);
+}
+.container-fluid {
+  padding: ($chronograf-page-header-height / 2) $page-wrapper-padding;
+  max-width: $page-wrapper-max-width;
+
+  &.full-width {
+    max-width: 100%;
+  }
+}
+
+/* Presentation Mode */
+.page-contents.presentation-mode {
+  top: 0;
+  height: 100% !important;
+  
+  .container-fluid {padding: 8px !important;}
+  .template-control--manage {display: none;}
+}

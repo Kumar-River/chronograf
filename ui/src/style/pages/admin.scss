@@ -1,0 +1,170 @@
+/*
+    Styles for Admin Pages
+    ----------------------------------------------
+*/
+
+
+
+
+/*
+    Admin Tabs
+    ----------------------------------------------
+*/
+.admin-tabs {
+  padding-right: 0;
+  & + div {padding-left: 0;}
+}
+.admin-tabs .btn-group {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  .tab {
+    font-weight: 500 !important;
+    border-radius: $radius 0 0 $radius !important;
+    margin-bottom: 2px !important;
+    transition:
+      background-color 0.25s ease,
+      color 0.25s ease !important;
+    border: 0 !important;
+    text-align: left;
+    height: 60px !important;
+    line-height: 60px !important;
+    padding: 0 0 0 16px !important;
+    font-size: 17px;
+    background-color: transparent !important;
+    color: $g11-sidewalk !important;
+
+    &:hover,
+    &:active,
+    &:active:hover {
+      background-color: $g3-castle !important;
+      color: $g15-platinum !important;
+    }
+    &.active {
+      background-color: $g3-castle !important;
+      color: $g18-cloud !important;
+    }
+  }
+}
+.admin-tabs--content {
+  .panel {border-top-left-radius: 0;}
+  .panel-heading {height: 60px;}
+  .panel-title {
+    font-size: 17px;
+    font-weight: 400 !important;
+    color: $g12-forge;
+    padding: 0;
+  }
+  .panel-body {min-height: 300px;}
+  .panel-heading + .panel-body {padding-top: 0;}
+}
+
+/*
+    Admin Table
+    ----------------------------------------------
+*/
+.admin-table .dropdown-toggle {
+  background-color: transparent;
+  font-weight: 600;
+  color: $g14-chromium;
+  transition: none !important;
+
+  .caret {opacity: 0;}
+}
+.admin-table--multi-select-empty .dropdown-toggle {
+  color: $g8-storm;
+}
+.admin-table tbody tr:hover .dropdown-toggle {
+  color: $g20-white !important;
+  background-color: $c-pool;
+
+  .caret {opacity: 1;}
+
+  &:hover {
+    transition: background-color 0.25s ease;
+    background-color: $c-laser;
+  }
+}
+table > tbody > tr > td.admin-table--left-offset,
+table > thead > tr > th.admin-table--left-offset {padding-left: 15px;}
+
+table > tbody > tr.admin-table--edit-row,
+table > tbody > tr.admin-table--edit-row:hover,
+table.table-highlight > tbody > tr.admin-table--edit-row,
+table.table-highlight > tbody > tr.admin-table--edit-row:hover {
+  background-color: $g5-pepper;
+}
+.admin-table--change-pw {
+  display: flex;
+  flex-wrap: nowrap;
+
+  .form-control {
+    margin: 0 4px 0 0;
+    flex: 1 0 0%;
+  }
+}
+pre.admin-table--query {
+  width: 100%;
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+  margin-bottom: 0;
+}
+.admin-table--delete-db {
+  display: flex;
+  align-items: center;
+
+  > .form-control {
+    flex: 1 0 0%;
+    margin-right: 4px;
+  }
+}
+
+/*
+    Database Manager
+    ----------------------------------------------
+*/
+.db-manager {
+  margin-bottom: 8px;
+
+  &:last-child {margin-bottom: 0;}
+  .db-manager-header--actions {display: none;}
+  &:hover .db-manager-header--actions {display: block;}
+}
+.db-manager-header {
+  padding: 0 11px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $g4-onyx;
+  border-radius: $radius-small $radius-small 0 0;
+
+  h4 {
+    margin: 0px;
+    color: $c-potassium;
+    font-size: 16px;
+    font-family: $code-font;
+    padding-left: 6px;
+    @include no-user-select();
+  }
+}
+.db-manager-header--edit {
+  justify-content: flex-start;
+
+  .form-control {
+    margin: 0 8px 0 0;
+    flex: 1 0 0%;
+  }
+}
+
+.db-manager-table {
+  background-color: $g4-onyx;
+  padding: 9px 11px;
+  border-radius: 0 0 $radius-small $radius-small;
+
+  .table-highlight > tbody > tr:hover {background-color: $g5-pepper;}
+}

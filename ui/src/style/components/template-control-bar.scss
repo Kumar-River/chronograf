@@ -1,0 +1,95 @@
+/*
+  Template Control Bar
+  ------------------------------------------------------
+  Used within a dashboard to control values for
+  template variables
+*/
+
+$template-control--margin: 2px;
+$template-control--min-height: 52px;
+$template-control-dropdown-min-width: 146px;
+$template-control-dropdown-max-width: 300px;
+
+.template-control-bar {
+  display: none;
+  height: auto;
+  margin-bottom: 8px;
+
+  &.show {
+    display: block;
+  }
+}
+.template-control--container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: $template-control--margin;
+  @extend .cell-shell;
+  background-color: $g0-obsidian;
+  min-height: $template-control--min-height;
+}
+.template-control--heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: $g13-mist;
+  margin: 0 8px 0 16px;
+  @include no-user-select();
+  white-space: nowrap;
+}
+button.btn.template-control--manage {
+  margin: 7px 8px;
+}
+.template-control--controls {
+  display: flex;
+  flex: 1 0 0%;
+  flex-wrap: wrap;
+}
+.template-control--empty {
+  color: $g11-sidewalk;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 18px;
+  @include no-user-select();
+}
+.template-control--dropdown {
+  flex: 0 1 auto;
+  min-width: $template-control-dropdown-min-width;
+  max-width: $template-control-dropdown-max-width;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: $template-control--margin;
+
+  .dropdown {
+    order: 2;
+    margin: 0;
+    flex: 1 0 0%;
+  }
+  .dropdown-toggle {
+    border-radius: 0 0 $radius-small $radius-small;
+    width: 100%;
+    font-size: 12px;
+    font-family: $code-font;
+  }
+  .dropdown .dropdown-menu .fancy-scroll--view li.dropdown-item a {
+    white-space: pre-wrap;
+    word-break: break-all;
+    overflow: hidden;
+    font-family: $code-font;
+    font-size: 12px;
+  }
+}
+.template-control--label {
+  @include no-user-select();
+  order: 1;
+  height: 18px;
+  padding: 0 8px;
+  margin: 0;
+  font-size: 11px;
+  font-family: $code-font;
+  color: $c-potassium;
+  line-height: 18px;
+  border-radius: $radius-small $radius-small 0 0;
+  background-color: $g4-onyx;
+}

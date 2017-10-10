@@ -1,0 +1,98 @@
+/*
+    Page Header
+    ----------------------------------------------
+*/
+$page-header-size: 19px;
+$page-header-weight: 400 !important;
+
+.page-header {
+  height: $chronograf-page-header-height;
+  width: 100%;
+  padding: 0 $page-wrapper-padding;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $g0-obsidian;
+  border: none;
+  margin: 0;
+}
+.page-header.full-width .page-header__container {
+  max-width: 100%;
+}
+.page-header__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: ($page-wrapper-max-width - $page-wrapper-padding - $page-wrapper-padding);
+}
+.page-header__left,
+.page-header__right {
+  display: flex;
+  align-items: center;
+}
+.page-header__left {
+  justify-content: flex-start;
+  > * {
+    margin: 0 4px 0 0;
+  }
+}
+.page-header__right {
+  justify-content: flex-end;
+  > * {
+    margin: 0 0 0 4px !important;
+
+    &:only-child {
+      margin-right: 0 !important;
+    }
+  }
+}
+.page-header__title {
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: $page-header-size;
+  font-weight: $page-header-weight;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  @include no-user-select();
+  cursor: default;
+}
+.page-header__dismiss {
+  width: ($chronograf-page-header-height - 20px);
+  height: ($chronograf-page-header-height - 20px);
+  position: relative;
+
+  /* Use psuedo elements to render the X */
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: $g11-sidewalk;
+    transition: background-color 0.25s ease;
+  }
+  &:before {
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+  &:after {
+    transform: translate(-50%,-50%) rotate(-45deg);
+  }
+  /* Hover State */
+  &:hover {
+    cursor: pointer;
+  }
+  &:hover:before,
+  &:hover:after {
+    background-color: $g18-cloud;
+  }
+}
